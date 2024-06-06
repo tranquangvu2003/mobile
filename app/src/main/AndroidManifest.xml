@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuanLyQuanCom"
+        tools:targetApi="31">
+        <activity
+
+            android:name=".activity.ShoppingCartActivity"
+
+            android:exported="false" />
+        <activity
+            android:name=".activity.detailProduct"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".activity.SignUpActivity"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true"/>
+        <activity
+            android:name=".activity.LoginADActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+
+            android:name=".activity.oderDetails"
+            android:exported="true" />
+        <activity
+
+
+            android:name=".activity.AdminActivity"
+
+            android:exported="true"
+            tools:ignore="DuplicateActivity"></activity>
+
+
+
+        <activity
+
+            android:name=".activity.editProduct"
+            android:exported="true">
+        </activity>
+        <activity
+            android:name=".activity.MainActivity2"
+
+            android:exported="true" />
+
+
+
+    </application>
+
+</manifest>
